@@ -96,11 +96,6 @@ All endpoints except `/api/health` and `/api/docs` use HTTP Basic authentication
 - Demo HTTP Basic credentials are for local development only. For production, use secure password hashing, proper user ownership/tenant boundaries, secret encryption, outbound request allowlists/SSRF protection, rate limits, and managed authentication.
 - The dashboard is currently a demo UI with local state; connect it to the REST API before presenting it as an integrated full-stack deployment.
 
-## Resume bullet (use only after running and verifying)
-**API Sentinel — API Testing & Reliability Platform** | React, TypeScript, Java, Spring Boot, PostgreSQL, Docker
-- Built an API testing platform to organize HTTP requests, run assertion-based checks, and persist execution history and latency metrics.
-- Implemented scheduled endpoint monitors with retry-aware execution records and configurable alert thresholds.
-- Designed a responsive reliability dashboard for endpoint status, run history, and shareable test reports.
 
 ## Project structure
 ```text
